@@ -259,7 +259,7 @@
               <p>
                 Streamlined recruitment and employee engagement for a startup.
               </p>
-              <a href="#" class="portfolio-link">View Project</a>
+              <a href="https://drive.google.com/file/d/1ySirB50kA6KCkVXAIMfkbZqC-smJP617/view?usp=sharing" class="portfolio-link">View Project</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -273,7 +273,7 @@
               <p>
                 Designed an efficient sales pipeline for a mid-sized company.
               </p>
-              <a href="#" class="portfolio-link">View Project</a>
+              <a href="https://drive.google.com/drive/folders/1jM89YTSPH6I6oW8lKnI-QK3i-vgq7ctT?usp=drive_link" class="portfolio-link">View Project</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -291,13 +291,12 @@
         </div>
       </div>
     </section>
-
     <!-- Contact Section -->
-    <!-- Only the Contact Section is shown below for brevity -->
     <section id="contact" class="section py-5 bg-light">
       <div class="container">
         <h2 class="section-title">Contact Me</h2>
         <p class="lead">Let’s work together! I’m just a message away.</p>
+
         <form
           action="https://formspree.io/f/your-unique-form-id"
           method="POST"
@@ -309,7 +308,7 @@
             value="New Contact Form Submission from Eiya Mishra Portfolio"
           />
           <input type="text" name="_gotcha" style="display: none" />
-          <!-- Honeypot for spam protection -->
+
           <div class="mb-3">
             <input
               type="text"
@@ -346,9 +345,11 @@
               required
             ></textarea>
           </div>
+
           <button type="submit" class="btn submit-btn">Send Message</button>
           <div id="my-form-status" style="margin-top: 15px; color: green"></div>
         </form>
+
         <div class="contact-info text-center mt-4">
           <p>
             Email:
@@ -356,19 +357,68 @@
               >eiya.virtualbiz@gmail.com</a
             >
           </p>
-          <div class="social-links d-flex justify-content-center gap-3">
-            <a href="#" class="social-icon" data-tooltip="WhatsApp"
-              ><i class="fab fa-whatsapp fa-2x" data-icon-color="color1"></i
-            ></a>
-            <a href="#" class="social-icon" data-tooltip="LinkedIn"
-              ><i class="fab fa-linkedin fa-2x" data-icon-color="color2"></i
-            ></a>
-            <a href="#" class="social-icon" data-tooltip="Fiverr"
-              ><i class="fab fa-fiverr fa-2x" data-icon-color="color3"></i
-            ></a>
-            <a href="#" class="social-icon" data-tooltip="Pinterest"
-              ><i class="fab fa-pinterest fa-2x" data-icon-color="color4"></i
-            ></a>
+
+          <div class="social-links d-flex justify-content-center gap-3 mt-3">
+            <!-- WhatsApp (Green) -->
+            <a
+              href="https://wa.me/918817462686"
+              class="social-icon"
+              data-tooltip="WhatsApp"
+              target="_blank"
+              style="color: #25d366"
+            >
+              <i class="fab fa-whatsapp fa-2x"></i>
+            </a>
+
+            <!-- LinkedIn (Blue) -->
+            <a
+              href="https://www.linkedin.com/in/eiyamishra0"
+              class="social-icon"
+              data-tooltip="LinkedIn"
+              target="_blank"
+              style="color: #0077b5"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+
+            <!-- Fiverr (SVG, Grey by default, Fiverr green on hover) -->
+            <a
+              href="https://www.fiverr.com/users/eiyamishra"
+              class="social-icon"
+              data-tooltip="Fiverr"
+              target="_blank"
+              style="
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+              "
+            >
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/fiverr-1.svg"
+                alt="Fiverr Logo"
+                style="
+                  width: 26px;
+                  height: 26px;
+                  filter: grayscale(100%) brightness(0.5);
+                  transition: filter 0.3s ease, transform 0.3s ease;
+                "
+                onmouseover="this.style.filter='grayscale(0%) brightness(1)'; this.style.transform='scale(1.1)'"
+                onmouseout="this.style.filter='grayscale(100%) brightness(0.5)'; this.style.transform='scale(1)'"
+              />
+            </a>
+
+            <!-- Pinterest (Red) -->
+            <a
+              href="https://in.pinterest.com/eiyamishra0"
+              class="social-icon"
+              data-tooltip="Pinterest"
+              target="_blank"
+              style="color: #e60023"
+            >
+              <i class="fab fa-pinterest fa-2x"></i>
+            </a>
           </div>
         </div>
       </div>
